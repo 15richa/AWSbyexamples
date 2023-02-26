@@ -1,3 +1,10 @@
+'''
+This Python project works with pandas library in Python and performs below task.
+    - create a dataframe, insert data
+    - convert a dataframe object into CSV
+    - upload CSV into AWS S3
+'''
+
 import pandas as pd
 import boto3
 import io
